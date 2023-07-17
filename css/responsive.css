@@ -41,6 +41,17 @@
         width: 40px;
         margin-left: 20px;
     }
+    #popular p{
+        margin-top:10px ;
+    }
+    .popular_container{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .card{
+        height: 400px;
+        width: 260px;
+        margin-left: 15px;
+    }
     .feature_content{
         padding: 0 20px;
         text-align: center;
@@ -51,6 +62,9 @@
     }
     .feature_image{
         max-width:100%;
+    }
+    .feature_image img{
+        width: 300px;
     }
     .footer_container h1{
         font-size: 1.5rem;
